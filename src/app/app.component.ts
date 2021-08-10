@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'tda-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+	selector: 'tda-root',
+	templateUrl: './app.component.html',
+	styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'todoapp';
+	title = 'todoapp';
 }
