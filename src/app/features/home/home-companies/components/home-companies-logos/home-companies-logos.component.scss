@@ -1,0 +1,9 @@
+.companies-logos {
+	@apply w-screen pb-10 flex flex-wrap justify-center items-center gap-5;
+}
+.companies-logo-container {
+	@apply w-1/3 sm:w-1/4 lg:w-1/6;
+}
+.companies-logo {
+	@apply cursor-pointer;
+}

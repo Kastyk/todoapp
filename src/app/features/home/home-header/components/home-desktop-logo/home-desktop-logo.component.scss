@@ -1,0 +1,6 @@
+.desktop-logo-container {
+	@apply w-52 h-32 xl:w-72 xl:h-36 3xl:w-96 3xl:h-52;
+}
+.desktop-logo {
+	@apply hidden sm:block w-full h-full;
+}

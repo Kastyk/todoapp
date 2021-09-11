@@ -1,0 +1,14 @@
+.nav {
+	&-list-container {
+		@apply hidden sm:block;
+	}
+	&-list {
+		@apply flex;
+	}
+	&-list-item {
+		@apply mx-5 flex items-center;
+	}
+	&-menu {
+		@apply text-primary block sm:hidden;
+	}
+}

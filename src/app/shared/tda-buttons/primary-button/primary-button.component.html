@@ -1,0 +1,13 @@
+<ng-container [ngTemplateOutlet]="configButtonWidth(full)"></ng-container>
+
+<ng-template #primaryButton>
+	<button mat-raised-button class="primary-button" attr.aria-label="Sign in button">
+		{{ text }}
+	</button>
+</ng-template>
+<!--Version of primary button only for mobile nav-->
+<ng-template #fullPrimaryButton>
+	<button mat-raised-button class="button-full primary-button" attr.aria-label="Sign in button in mobile navigation">
+		{{ text }}
+	</button>
+</ng-template>

@@ -1,0 +1,31 @@
+<section class="about section">
+	<div class="about-wrapper">
+		<div [ngsReveal]="animateLeft" class="order-2 sm:order-1 animate-left">
+			<img src="../../../assets/tda-productivity.png" alt="Increase productivity" />
+		</div>
+		<div [ngsReveal]="animateRight" class="about-content section-content animate-right order-1 sm:order-2">
+			<h2 class="section-title">Popraw produktywność</h2>
+			<p class="about-description section-description">
+				Twórcy aplikacji wiedzą, jak ważna jest produktywność w pracy, jak również oszczędność czasu. Todoapp wychodzi
+				naprzeciw potrzebom klientów, pomagając w organizacji ich czasu, jak również przyczyniając się do zwrostu ich
+				efektywności.
+			</p>
+		</div>
+	</div>
+	<div class="about-wrapper">
+		<div [ngsReveal]="animateLeft" class="about-content section-content order-1 sm:order-1">
+			<h2 class="section-title">Łatwość i intuicyjność</h2>
+			<p class="about-description section-description">
+				Korzystanie z aplikacji jest szalenie proste i przyjemne. Dzięki wielu najprzeróżniejszych funkcjom todoapp
+				pozwala na wiele, jeśli chodzi o aplikacje tego typu dostępne na rynku.
+			</p>
+			<div class="about-functions">
+				<span>Poznaj funkcję todoapp</span>
+				<fa-icon [icon]="faLongArrowAltRight" class="about-icon"></fa-icon>
+			</div>
+		</div>
+		<div [ngsReveal]="animateRight" class="order-2 sm:order-2">
+			<img src="../../../assets/tda-easiest.png" alt="Easy in use" />
+		</div>
+	</div>
+</section>

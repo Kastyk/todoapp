@@ -1,0 +1,13 @@
+.mobile-nav {
+	@apply w-screen h-screen bg-light-secondary;
+}
+.mobile-nav-content {
+	@apply flex flex-col items-center;
+}
+/*This class provides the required width for the buttons in mobile nav*/
+.mobile-nav-button {
+	width: 90vw;
+}
+.reversed-button {
+	@apply bg-light-primary text-primary my-5 border border-primary rounded;
+}

@@ -1,0 +1,10 @@
+.opinions {
+	@apply w-screen flex flex-col items-center pb-10 sm:pb-20;
+
+	&-content {
+		@apply relative sm:w-2/3 text-secondary p-5 sm:p-10 mx-2 sm:mx-0 max-w-7xl;
+	}
+	&-text {
+		@apply text-center sm:text-xl xl:text-2xl 3xl:text-5xl;
+	}
+}
