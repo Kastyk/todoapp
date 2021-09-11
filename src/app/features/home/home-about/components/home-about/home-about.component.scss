@@ -1,0 +1,17 @@
+.about {
+	&-wrapper {
+		@apply flex flex-col justify-center items-center my-10 sm:my-20 sm:grid sm:grid-cols-2 sm:justify-items-center;
+	}
+	&-content {
+		@apply mt-10 sm:mt-0 max-w-5xl;
+	}
+	&-description {
+		@apply text-justify;
+	}
+	&-functions {
+		@apply text-primary text-center text-sm flex content-center cursor-pointer 2xl:text-base 3xl:text-2xl;
+	}
+	&-icon {
+		@apply flex items-center text-xl 3xl:text-4xl pl-2;
+	}
+}

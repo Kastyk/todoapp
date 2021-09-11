@@ -1,0 +1,31 @@
+.clients {
+	@apply 3xl:py-52;
+	&-title {
+		@apply mt-12 text-light-primary;
+	}
+	&-card {
+		@apply max-w-xl 3xl:max-w-4xl h-64 3xl:h-96 bg-light-primary flex flex-col justify-between p-5 3xl:p-10 mt-5 mb-14 mx-auto shadow-xl;
+
+		&-content {
+			@apply text-sm sm:text-base text-justify 3xl:text-3xl;
+		}
+		&-footer {
+			@apply flex items-center mt-5;
+		}
+		&-photo {
+			@apply rounded-full w-14 h-14 lg:w-16 lg:h-16 xl:w-20 xl:h-20 3xl:w-32 3xl:h-32;
+		}
+		&-info {
+			@apply flex flex-col pl-2 3xl:pl-5;
+		}
+		&-client {
+			@apply text-lg font-bold 3xl:text-4xl;
+		}
+		&-job {
+			@apply text-sm text-secondary 3xl:text-2xl;
+		}
+	}
+}
+.swiper {
+	@apply w-screen;
+}

@@ -1,0 +1,17 @@
+<div class="home-wrapper home-theme">
+	<tda-home-header></tda-home-header>
+	<mat-sidenav-container>
+		<mat-sidenav (opened)="openMobileNav()" (closed)="closeMobileNav()" #tdaMobileNav>
+			<tda-home-mobile-nav></tda-home-mobile-nav>>
+		</mat-sidenav>
+		<mat-sidenav-content>
+			<tda-home-begin-day></tda-home-begin-day>
+			<tda-home-about></tda-home-about>
+			<tda-home-accessibility></tda-home-accessibility>
+			<tda-home-companies></tda-home-companies>
+			<tda-home-clients></tda-home-clients>
+			<tda-home-begin-now></tda-home-begin-now>
+			<tda-home-footer></tda-home-footer>
+		</mat-sidenav-content>
+	</mat-sidenav-container>
+</div>
