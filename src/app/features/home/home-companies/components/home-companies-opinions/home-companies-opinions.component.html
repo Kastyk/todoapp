@@ -1,0 +1,53 @@
+<div class="opinions" [ngsReveal]="{ reset: true, mobile: false, duration: 1000 }">
+	<div class="opinions-content" #opinionsContent>
+		<fa-icon [icon]="faQuoteRight" class="absolute top-0 left-0 3xl:text-3xl"></fa-icon>
+		<ng-container [ngTemplateOutlet]="changeOpinion(id)"></ng-container>
+		<fa-icon [icon]="faQuoteRight" class="absolute bottom-0 right-0 3xl:text-3xl"></fa-icon>
+	</div>
+</div>
+<ng-template #casterra>
+	<p class="opinions-text">
+		Główną zaletą todoapp jest to, że jest to najbardziej wszechstronna aplikacja rzeczy do zrobienia jaką widziałem. Z
+		todoapp mogę zaplanować dosłownie wszystko.
+	</p>
+</ng-template>
+<ng-template #eldlina>
+	<p class="opinions-text">
+		Aplikacja sprawdza się świetnie w projektach grupowych. Intuicyjne poruszanie się po aplikacji i czytelność jest
+		również na wysokim poziomie.
+	</p>
+</ng-template>
+<ng-template #gamehacker>
+	<p class="opinions-text">
+		Funkcja przypominania o nadchodzących, zaplanowanych wydarzeniach to coś, czego szukaliśmy w naszym zespole. Ponadto
+		możliwość szybkiej zmiany daty w pozycjach z listy jest bardzo przydatna.
+	</p>
+</ng-template>
+<ng-template #gismondo>
+	<p class="opinions-text">
+		Bardzo długo szukaliśmy aplikacji do organizowania projektów, ponieważ nie mogliśmy poradzić sobie z organizacją
+		czasem. Właśnie wtedy trafiliśmy na todoapp i jesteśmy zadowoleni z wyboru. Aplikacja todoapp posiada wszystko,
+		czego potrzebowaliśmy.
+	</p>
+</ng-template>
+<ng-template #ittrends>
+	<p class="opinions-text">
+		Aplikacja sprawdza się do zastosowań zespołowych oraz w warunkach biurowych, jak również bardzo dobrze radzi sobie
+		gdy chodzi o zwykłe obowiązki domowe. Nasz zespół korzysta z niej od dawna.
+	</p>
+</ng-template>
+<ng-template #marshale>
+	<p class="opinions-text">
+		Aplikacja świetnie sprawdza się gdy chodzi o zrobienie listy zakupów, zarządzaniu wielkim projektem w naszej firmie,
+		czy chociażby przy przypominaniu o obowiązkach domowych. To najlepsza tego typu aplikacja na rynku.
+	</p>
+</ng-template>
+<ng-template #mkspb>
+	<p class="opinions-text">Najlepszy organizator czasu oraz poprawiacz produktywności. Polecamy ją każdemu.</p>
+</ng-template>
+<ng-template #theverde>
+	<p class="opinions-text">
+		Todoapp to aplikacja stworzona z myślą o ludziach, którzy potrzebują pomocy z lepszym gospodarowaniem swoim czasem.
+		Na tym polu sprawdza się znakomicie. Wdrożyliśmy todoapp w swojej firmie i jesteśmy z niej zadowoleni.
+	</p>
+</ng-template>
